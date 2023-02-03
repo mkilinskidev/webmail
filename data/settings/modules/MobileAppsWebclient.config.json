@@ -1,0 +1,122 @@
+{
+    "Disabled": [
+        false,
+        "bool"
+    ],
+    "Disabled_Description": [
+        "Setting to true disables the module",
+        "string"
+    ],
+    "FilesSectionName": [
+        "Aurora Files",
+        "string"
+    ],
+    "FilesSectionName_Description": [
+        "Title of Files section in Mobile Apps tab of Settings screen",
+        "string"
+    ],
+    "ShowFilesAndroidApp": [
+        true,
+        "bool"
+    ],
+    "ShowFilesAndroidApp_Description": [
+        "If true, display a link to Aurora Files for Android",
+        "string"
+    ],
+    "ShowFilesServerUrlApp": [
+        false,
+        "bool"
+    ],
+    "ShowFilesServerUrlApp_Description": [
+        "If true, display URL which needs to be supplied in mobile apps to access files",
+        "string"
+    ],
+    "FilesAndroidAppLink": [
+        "https:\/\/play.google.com\/store\/apps\/details?id=com.afterlogic.aurora.files",
+        "string"
+    ],
+    "FilesAndroidAppLink_Description": [
+        "URL of a link to Aurora Files for Android",
+        "string"
+    ],
+    "ShowFilesIosApp": [
+        true,
+        "bool"
+    ],
+    "ShowFilesIosApp_Description": [
+        "If true, display a link to Aurora Files for iOS",
+        "string"
+    ],
+    "FilesIosAppLink": [
+        "https:\/\/apps.apple.com\/us\/app\/aurorafiles\/id1030108751?platform=iphone",
+        "string"
+    ],
+    "FilesIosAppLink_Description": [
+        "URL of a link to Aurora Files for iOS",
+        "string"
+    ],
+    "ShowFilesWinApp": [
+        true,
+        "bool"
+    ],
+    "ShowFilesWinApp_Description": [
+        "If true, link to Windows client for accessing files is shown",
+        "string"
+    ],
+    "FilesWinAppLink": [
+        "https:\/\/afterlogic.com\/download\/AuroraFileSync.msi",
+        "string"
+    ],
+    "FilesWinAppLink_Description": [
+        "URL of a link to Windows client for accessing files",
+        "string"
+    ],
+    "MailSectionName": [
+        "Aurora Mail",
+        "string"
+    ],
+    "MailSectionName_Description": [
+        "Title of Mail section in Mobile Apps tab of Settings screen",
+        "string"
+    ],
+    "ShowMailServerUrlApp": [
+        false,
+        "bool"
+    ],
+    "ShowMailServerUrlApp_Description": [
+        "If true, display the URL for accessing this product installation",
+        "string"
+    ],
+    "ShowMailAndroidApp": [
+        true,
+        "bool"
+    ],
+    "ShowMailAndroidApp_Description": [
+        "If true, display a link to Aurora Mail for Android",
+        "string"
+    ],
+    "MailAndroidAppLink": [
+        "https:\/\/play.google.com\/store\/apps\/details?id=com.afterlogic.aurora.mail",
+        "string"
+    ],
+    "MailAndroidAppLink_Description": [
+        "URL of a link to Aurora Mail for Android",
+        "string"
+    ],
+    "ShowMailIosApp": [
+        true,
+        "bool"
+    ],
+    "ShowMailIosApp_Description": [
+        "If true, display a link to Aurora Mail for iOS",
+        "string"
+    ],
+    "MailIosAppLink": [
+        "https:\/\/apps.apple.com\/us\/app\/aurora-mail\/id1494290317?platform=iphone",
+        "string"
+    ],
+    "MailIosAppLink_Description": [
+        "URL of a link to Aurora Mail for iOS",
+        "string"
+    ]
+}

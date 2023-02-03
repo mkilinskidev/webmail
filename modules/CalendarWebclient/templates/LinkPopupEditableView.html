@@ -1,0 +1,16 @@
+<div class="inline_popup" data-bind="visible: visibleLinkPopup, initDom: linkPopupDom">
+	<a target="_blank" href="#" data-bind="text: linkHref, attr: {'href': linkHref},
+	   click: function () { hideLinkPopup(); return true; }"
+	></a>
+	<span class="button" data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_CHANGE_URL'},
+		  click: showChangeLink, visible: allowEditLinks"
+	></span>
+	<span class="button" data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_REMOVE'},
+		  click: removeCurrentLink, visible: allowEditLinks"
+	></span>
+</div>
+<div class="inline_popup" data-bind="visible: visibleLinkHref, initDom: linkHrefDom">
+	<input type="text" spellcheck="false" data-bind="value: linkHref" />
+	<span class="button" data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_OK'}, click: changeLink"></span>
+	<span class="button" data-bind="i18n: {'key': 'COREWEBCLIENT/ACTION_CANCEL'}, click: hideChangeLink"></span>
+</div>

@@ -1,0 +1,18 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"Setting to true disables the module",
+		"string"
+	],
+	"Password": [
+		"",
+		"string"
+	],
+	"Password_Description": [
+		"Hash value of master password supplied in admin interface",
+		"string"
+	]
+}

@@ -1,0 +1,62 @@
+.popup_schedule {
+	.simple_list {
+		border: 0;
+		border-bottom: 1px solid #d5d9dc;
+		margin: 0;
+
+		.item {
+			border: 0;
+
+			.title_right {
+				float: right;
+				margin-left: 20px;
+			}
+		}
+	}
+
+	.row_select_datetime {
+		color: #626262;
+		text-align: center;
+	}
+
+	.row_select_datetime_hint {
+		margin: 15px 0;
+	}
+
+	.input_date {
+		width: 100%;
+		margin: 0;
+	}
+
+	.input_time {
+		width: 100%;
+		margin: 0;
+	}
+
+	img {
+		margin: 0px 5px -4px -21px;
+		position: relative;
+		z-index: 3000;
+	}
+}
+
+.appointment_scheduled {
+	.value_scheduled {
+		margin-right: 10px;
+
+		.init-icon-font();
+		&:before {
+			content: "\e921" !important;
+			font-size: 20px;
+			vertical-align: middle;
+		}
+	}
+}
+
+/* Scheduled icon should be changed only for level 1 */
+.folders .item .icon.type10.Scheduled:before {
+	content: "\e921" !important;
+}
+.folders .children .item .icon.type10.Scheduled:before {
+	content: "\e66c" !important;
+}

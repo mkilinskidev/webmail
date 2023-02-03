@@ -1,0 +1,18 @@
+{
+    "Disabled": [
+        false,
+        "bool"
+    ],
+    "Disabled_Description": [
+        "",
+        "string"
+    ],
+    "Scopes": [
+        "auth",
+        "string"
+    ],
+    "Scopes_Description": [
+        "",
+        "string"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"Setting to true disables the module",
+		"string"
+	],
+	"ExpandZipFilesLimit": [
+		500,
+		"int"
+	],
+	"ExpandZipFilesLimit_Description": [
+		"Sets a limit for number of files shown when expanding ZIP archive",
+		"string"
+	],
+	"IncludeInMobile": [
+		true,
+		"bool"
+	],
+	"IncludeInMobile_Description": [
+		"If true, the module is used in mobile version of the interface",
+		"string"
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"Setting to true disables the module",
+		"string"
+	],
+	"ViewLastLogSize": [
+		1024000,
+		"int"
+	],
+	"ViewLastLogSize_Description": [
+		"Defines size of the log file section to view, in bytes",
+		"string"
+	]
+}

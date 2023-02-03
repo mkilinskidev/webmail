@@ -1,0 +1,138 @@
+{
+	"system": {
+		"XFrameOptions": "SAMEORIGIN"
+	},
+	"modules": {
+		"Core": {
+			"SiteName": "Afterlogic WebMail Pro PHP",
+			"ProductName": "Afterlogic WebMail Pro PHP",
+			"EnableFailedLoginBlock": true
+		},
+		"CoreWebclient": {
+			"HeaderModulesOrder": ["mail", "contacts"],
+			"DefaultAnonymScreenHash": "login",
+			"DefaultUserScreenHash": "mail",
+			"AllowMobile": true,
+			"ThemeList": ["Default", "DefaultDark", "DeepForest", "Funny", "Sand"]
+		},
+		"SessionTimeoutWebclient": {
+			"Disabled": true
+		},
+		"DropboxAuthWebclient": {
+			"Scopes": "auth"
+		},
+		"Mail": {
+			"MessagesSortBy": {
+				"Allow": true,
+				"List": [],
+				"DefaultSortBy": "arrival",
+				"DefaultSortOrder": "desc"
+			},
+			"AllowDefaultAccountForUser": true,
+			"AutocreateMailAccountOnNewUserFirstLogin": true,
+			"XOriginatingIPHeaderName": ""
+		},
+		"MailWebclient": {
+			"AllowSearchMessagesBySubject": true
+		},
+		"ChangePasswordWebclient": {
+			"Disabled": true
+		},
+		"FilesWebclient": {
+			"ShowCommonSettings": true,
+			"ShowFilesApps": false,
+			"PublicLinksEnabled": false
+		},
+		"Calendar": {
+			"AllowTasks": true
+		},
+		"OAuthIntegratorWebclient": {
+			"AllowNewUsersRegister": false
+		},
+		"MailChangePasswordPoppassdPlugin": {
+			"Disabled": true
+		},
+		"MailAuthCpanel": {
+			"Disabled": true
+		},
+		"MailSaveMessageAsPdfPlugin": {
+			"Disabled": true
+		},
+		"CoreParanoidEncryptionWebclientPlugin": {
+			"Disabled": true
+		},
+		"LicensingWebclient": {
+			"TrialKeyLink": "<a href=\"https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-9\" target=\"_blank\">https://afterlogic.com/get-trial-key?productId=afterlogic-webmail-pro-9</a>",
+			"PermanentKeyLink": "<a href=\"https://afterlogic.com/purchase/webmail-pro\" target=\"_blank\">https://afterlogic.com/purchase/webmail-pro</a>"
+		},
+		"StandardLoginFormWebclient": {
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-client\" target=\"_blank\">Afterlogic WebMail Pro</a>"
+		},
+		"Autodiscover": {
+			"Disabled": true
+		},
+		"ActiveServer": {
+			"Disabled": true
+		},
+		"TwoFactorAuth": {
+			"Disabled": true,
+			"FacetIds": [
+				"android:apk-key-hash:fbENTvCSeR-AwJV5rrrBsb98p-jEw0c5SSOMul_KwaI",
+				"android:apk-key-hash:ruyLw8eJtT5fZ1ZusXSCHTp0yMZIlr6CVx5kq76ApiQ",
+				"android:apk-key-hash:aEdaWviMajF83fPsXVc1yaZVUy1OiKakbZqP62f5D48"
+			]
+		},
+		"CpanelIntegrator": {
+			"Disabled": true
+		},
+		"MailSignup": {
+			"Disabled": true
+		},
+		"MailLoginFormWebclient": {
+			"Disabled": true,
+			"UseDropdownLanguagesView": true,
+			"BottomInfoHtmlText": "Powered by <a href=\"https:\/\/afterlogic.com\/webmail-client\" target=\"_blank\">Afterlogic WebMail Pro</a>"
+		},
+		"MailLoginFormMobileWebclient": {
+			"Disabled": true
+		},
+		"RecaptchaWebclientPlugin": {
+			"Disabled": true
+		},
+		"MailMasterPassword": {
+			"Disabled": true
+		},
+		"SettingsMobileWebclient": {
+			"Disabled": true
+		},
+		"OpenPgpMobileWebclient": {
+			"Disabled": true
+		},
+		"OverrideUserSettings": {
+			"Disabled": true
+		},
+		"Ios": {
+			"IncludePasswordInProfile": false
+		},
+		"Contacts": {
+			"ImportContactsLink": "https://afterlogic.com/docs/webmail-pro/frequently-asked-questions/importing-contacts",
+			"AllowAddressBooksManagement": true,
+			"AllowEditTeamContactsByTenantAdmins": true
+		},
+		"S3Filestorage": {
+			"Disabled": true
+		},
+		"OpenPgpFilesWebclient": {
+			"EnableSelfDestructingMessages": false,
+			"EnablePublicLinkLifetime": false
+		},
+		"MobileAppsWebclient": {
+			"ShowMailServerUrlApp": false,
+			"ShowFilesServerUrlApp": false
+		},
+		"MailScheduledMessages": {
+			"Disabled": true
+		}
+	}
+}

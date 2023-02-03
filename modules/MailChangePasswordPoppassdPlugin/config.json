@@ -1,0 +1,36 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"Setting to true disables the module",
+		"string"
+	],
+	"SupportedServers": [
+		[
+			"*"
+		],
+		"array"
+	],
+	"SupportedServers_Description": [
+		"Defines a list of servers the password change is enabled for, or * for all the servers",
+		"string"
+	],
+	"Host": [
+		"127.0.0.1",
+		"string"
+	],
+	"Host_Description": [
+		"Defines hostname used to connect to POPPASSD service",
+		"string"
+	],
+	"Port": [
+		106,
+		"int"
+	],
+	"Port_Description": [
+		"Defines port number used to connect to POPPASSD service",
+		"string"
+	]
+}

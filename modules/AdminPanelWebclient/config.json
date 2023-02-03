@@ -1,0 +1,42 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"Disabled_Description": [
+		"Setting to true disables the module",
+		"string"
+	],
+	"EntitiesPerPage": [
+		20,
+		"int"
+	],
+	"EntitiesPerPage_Description": [
+		"Number of items (users, domains etc.) shown per page in admin interface",
+		"string"
+	],
+	"TabsOrder": [
+		[
+			"licensing",
+			"admin-security",
+			"admin-db",
+			"logs-viewer",
+			"system",
+			"common",
+			"modules"
+		],
+		"array"
+	],
+	"TabsOrder_Description": [
+		"Defines list of adminpanel interface sections and the order of displaying those",
+		"string"
+	],
+	"EntitiesOrder": [
+		[],
+		"array"
+	],
+	"EntitiesOrder_Description": [
+		"Defines list of top menu entries and the order of displaying those",
+		"string"
+	]
+}

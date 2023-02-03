@@ -1,0 +1,26 @@
+{
+    "Disabled": [
+        false,
+        "bool"
+    ],
+    "Disabled_Description": [
+        "Setting to true disables the module",
+        "string"
+    ],
+    "TrialKeyLink": [
+        "\u003Ca href=\"https:\/\/afterlogic.com\/get-trial-key?productId=afterlogic-webmail-pro-9\" target=\"_blank\"\u003Ehttps:\/\/afterlogic.com\/get-trial-key?productId=afterlogic-webmail-pro-9\u003C\/a\u003E",
+        "string"
+    ],
+    "TrialKeyLink_Description": [
+        "URL of webpage for getting a trial key",
+        "string"
+    ],
+    "PermanentKeyLink": [
+        "\u003Ca href=\"https:\/\/afterlogic.com\/purchase\/webmail-pro\" target=\"_blank\"\u003Ehttps:\/\/afterlogic.com\/purchase\/webmail-pro\u003C\/a\u003E",
+        "string"
+    ],
+    "PermanentKeyLink_Description": [
+        "URL of the product license purchase page",
+        "string"
+    ]
+}

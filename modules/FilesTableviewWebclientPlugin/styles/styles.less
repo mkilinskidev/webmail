@@ -1,0 +1,186 @@
+.panel.files .items_list .items_sub_list.item_list_table_view {
+	float: left;
+	width: 100%;
+	padding: 0px !important;
+
+	.item {
+		cursor: default !important;
+		display: block !important;
+		height: auto !important;
+		max-height: none !important;
+		max-width: none !important;
+		width: 100% !important;
+		margin: 0px !important;
+		padding: 0px;
+		text-align: left !important;
+		
+		a {
+			color: @theme-attachment-action-link-color;
+			&:hover {
+				color: darken(@theme-attachment-action-link-color, 15%);
+				text-decoration: none;
+			}
+		}
+
+		&.deleted {
+			-webkit-transition: none;
+			-moz-transition: none;
+			-o-transition: none;
+			transition: none;
+			-webkit-transform: none;
+			transform: none;
+
+			max-height: 0px !important;
+		}
+
+		.item_content {
+			padding: 6px 16px 6px 0px;
+			white-space: nowrap;
+			display: flex;
+		}
+
+		.image, .name, .file_states, .actions, .progress, &.folder2 .icon {
+			display: inline-block;
+			flex-grow: 0;
+			line-height: 46px;
+			margin: 0 0 0 18px;
+			text-align: center;
+			vertical-align: middle;
+		}
+		.name {
+			overflow: hidden;
+		}
+		.spacer {
+			flex-grow: 1;
+		}
+		.actions {
+			a {
+				margin-right: 10px;
+			}
+		}
+		.file_states {
+			line-height: 18px;
+			margin: 14px 0 14px 12px;
+			position: initial;
+		}
+
+		&.file .name {
+			font-size: 10pt;
+			line-height: inherit;
+			text-align: left;
+			margin-top: 9px;
+		}
+		.data {
+			color: #929292;
+			font-size: 9px;
+		}
+		.image {
+			height: 46px;
+			width: 60px;
+
+			img {
+				max-height: 100%;
+				max-width: 100%;
+				vertical-align: middle;
+			}
+
+			.icon {
+				vertical-align: middle;
+			}
+		}
+
+		&.folder2 {
+			.icon {
+				background: url("../../images/sprites.png");
+				background-position: -880px -400px;
+				height: 65px;
+				width: 66px;
+				margin: -5px 0 -13px -3px;
+				transform: scale(0.68);
+			}
+			.folder_shared_with_me_icon {
+				left: 47px;
+				top: 48%;
+				&:before {
+					font-size: 19px;
+				}
+			}
+		}
+		&.file {
+			.icon {
+				margin: -20px 0 -18px -2px;
+				transform: scale(0.6);
+			}
+			.file_shared_with_me_icon {
+				height: 20px;
+				left: 58px;
+				top: 10px;
+				width: 20px;
+				line-height: 18px;
+				&:before {
+					font-size: 18px;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+}
+
+.file-preview {
+/*	float: right;
+	background: grey;
+	padding: 40px;*/
+	flex-grow: 1;
+	width: 380px;
+	border-left: 1px solid #eee;
+
+	.panel_top {
+		background: none !important;
+		border-bottom: 0px;
+		padding: 0px;
+		user-select: initial;
+		text-align: center;
+		margin: 30px;
+		font-size: 18px;
+
+		white-space: normal;
+
+		/* Careful, this breaks the word wherever it is without a hyphen */
+		overflow-wrap: break-word;
+		word-wrap: break-word;
+
+		/* Adds a hyphen where the word breaks */
+		-webkit-hyphens: auto;
+		-ms-hyphens: auto;
+		-moz-hyphens: auto;
+		hyphens: auto;
+	}
+}
+
+.view_iframe img {
+	max-height: 200px;
+	max-width: 320px;
+}
+
+.shared-image-table {
+	cursor: pointer;
+	border-radius: 5px;
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	overflow: hidden;
+	position: relative;
+	background: #64aedc;
+	color: #fff;
+	line-height: 18px;
+
+	.init-icon-font();
+
+	&:before {
+		display: inline-block;
+		font-size: 18px;
+		height: 100%;
+		width: 100%;
+		content: "\e912";
+	}
+ }

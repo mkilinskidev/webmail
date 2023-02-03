@@ -1,0 +1,42 @@
+{
+    "Disabled": [
+        false,
+        "bool"
+    ],
+    "Disabled_Description": [
+        "Setting to true disables the module",
+        "string"
+    ],
+    "ContactsPerPage": [
+        20,
+        "int"
+    ],
+    "ContactsPerPage_Description": [
+        "Number of contacts displayer ped page",
+        "string"
+    ],
+    "ImportContactsLink": [
+        "https:\/\/afterlogic.com\/docs\/webmail-pro\/frequently-asked-questions\/importing-contacts",
+        "string"
+    ],
+    "ImportContactsLink_Description": [
+        "URL of documentation page that explains structure of CSV files used",
+        "string"
+    ],
+    "AllowAddressBooksManagement": [
+        true,
+        "bool"
+    ],
+    "AllowAddressBooksManagement_Description": [
+        "Setting to true enables managing multiple address books",
+        "string"
+    ],
+    "AllowEditTeamContactsByTenantAdmins": [
+        true,
+        "bool"
+    ],
+    "AllowEditTeamContactsByTenantAdmins_Description": [
+        "Setting to true allows tenant admin to edit Team address book entries",
+        "string"
+    ]
+}
